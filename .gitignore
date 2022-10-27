@@ -1,0 +1,8 @@
+.idea
+out
+src/test
+resources
+target
+ejerciciosPDF.iml
+main.iml
+kotlin.iml
