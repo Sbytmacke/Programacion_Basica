@@ -1,6 +1,6 @@
 package pdf_1
 
-fun main (){
+fun main() {
     val palabraParaAdivinar: String = "arado"
     val palabraParaAdivinarChar: CharArray = palabraParaAdivinar.toCharArray()
     var palabraVisualizadaOculta: String = " "
@@ -12,20 +12,34 @@ fun main (){
     // val letra = if (input.length == 1) input[0] else ' '
 
     // var entradaMia = readln()!![0]
+    // var entradaMia = readln()[0]
 
-    generaPalabraOcultaConMismoTamannoDePalabraParaAdivinar(palabraParaAdivinarChar,palabraVisualizadaOcultaChar)
-    print(comparacionPalabraOcultaConPalabraParaAdivinar(palabraParaAdivinarChar,palabraVisualizadaOcultaChar,entradaLetra))
+    generaPalabraOcultaConMismoTamannoDePalabraParaAdivinar(palabraParaAdivinarChar, palabraVisualizadaOcultaChar)
+    print(
+        comparacionPalabraOcultaConPalabraParaAdivinar(
+            palabraParaAdivinarChar,
+            palabraVisualizadaOcultaChar,
+            entradaLetra
+        )
+    )
 
 
 }
 
-fun generaPalabraOcultaConMismoTamannoDePalabraParaAdivinar(palabraParaAdivinarChar: CharArray, palabraVisualizadaOcultaChar: CharArray) {
+fun generaPalabraOcultaConMismoTamannoDePalabraParaAdivinar(
+    palabraParaAdivinarChar: CharArray,
+    palabraVisualizadaOcultaChar: CharArray
+) {
 
 }
 
-fun comparacionPalabraOcultaConPalabraParaAdivinar(palabraParaAdivinarChar: CharArray, palabraVisualizadaOcultaChar: CharArray, entradaLetra: Char) {
+fun comparacionPalabraOcultaConPalabraParaAdivinar(
+    palabraParaAdivinarChar: CharArray,
+    palabraVisualizadaOcultaChar: CharArray,
+    entradaLetra: Char
+) {
     for (i in palabraParaAdivinarChar.indices) {
-        if (entradaLetra == palabraParaAdivinarChar[i]){
+        if (entradaLetra == palabraParaAdivinarChar[i]) {
             palabraVisualizadaOcultaChar[i] = palabraParaAdivinarChar[i]
         }
     }

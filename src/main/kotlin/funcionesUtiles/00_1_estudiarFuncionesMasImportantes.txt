@@ -1,0 +1,11 @@
+PDF2:
+*06_raizCuadrada
+*07_determinarAnnoBisiesto
+*08_numeroRealDecimalOno
+*13_divisionConRestas
+*20_comprobarBisiestOno
+*21_numerosPares
+*22_numerosImpares
+*23_factorial
+*31_determinarSiPrimoOno
+*FALTAN POR HACER EL 36,37 Y 38

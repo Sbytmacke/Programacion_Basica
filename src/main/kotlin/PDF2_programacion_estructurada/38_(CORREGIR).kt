@@ -2,13 +2,9 @@ package funcionesUtiles
 
 //23,29,31 o salir, son ejercicios,y cual queresmo realizar, se hacen esos ejercicios hasta que decidamos salir
 
-fun main(){
-eleccionPro()
-}
-
-fun eleccionPro(){
-    var eleccion:String = ""
-    var salir:Boolean = false
+fun main() {
+    var eleccion: String = ""
+    var salir: Boolean = false
 
     do {
         println("Elige tu herramienta:")
@@ -18,19 +14,19 @@ fun eleccionPro(){
         println("D = Salir del programa")
         eleccion = readln()
         if (eleccion == "A") {
-            var num:Int = 0
+            var num: Int = 0
             print("Escribe el numero que quieras saber su factorial:")
             num = readln().toInt()
-            println("Tu resultado del factorial es: ${factorialIterativo(num)}")
+            //println("Tu resultado del factorial es: ${factorialIterativo(num)}")
         }
         if (eleccion == "B") {
-            organizadorNotas()
+            //organizadorNotas()
         }
         if (eleccion == "C") {
-            mioPrimo()
+            //mioPrimo()
         }
         if (eleccion == "D") {
             salir = true
         }
-    }while (salir == false)
+    } while (salir == false)
 }
